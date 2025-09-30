@@ -26,8 +26,11 @@ This is my personal portfolio website showcasing my skills, projects, certificat
 
 ## File Structure
 /portfolio
+
 │── portfolio_Upgrade.html # Main portfolio file
+
 │── img.jpg # Profile picture
+
 │── README.md # Project documentation
 
 ## Contact
