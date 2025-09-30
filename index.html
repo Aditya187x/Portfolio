@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Aditya Kala | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/4d8e5a4e4a.js"></script>
+<style>
+    /* General Styling */
+    body { font-family: 'Poppins', sans-serif; margin: 0; padding: 0; background: #f4f7fa; color: #333; }
+    h1, h2, h3 { margin: 0; }
+    a { text-decoration: none; }
+
+    /* Header */
+    header { 
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); 
+      color: white; 
+      text-align: center; 
+      padding: 60px 20px; 
+    }
+    header h1 { font-size: 2.5rem; }
+    header p { margin: 10px 0; font-size: 1.2rem; }
+    nav { margin-top: 20px; }
+    nav a { margin: 0 15px; color: white; font-weight: 600; transition: 0.3s; }
+    nav a:hover { color: #00d9ff; }
+
+    /* Sections */
+    section { padding: 70px 20px; max-width: 1100px; margin: auto; }
+    h2 { text-align: center; color: #203a43; margin-bottom: 40px; font-size: 2rem; }
+
+    /* Grid Layout */
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .card { background: white; border-radius: 12px; padding: 20px; box-shadow: 0 6px 15px rgba(0,0,0,0.1); transition: transform 0.3s; text-align: center; }
+    .card:hover { transform: translateY(-8px); }
+    .card a { color: #00bcd4; font-weight: 600; margin: 0 10px; }
+
+
+    /* Contact */
+    .contact p { font-size: 1.1rem; margin: 10px 0; }
+    .contact a { color: #00bcd4; font-weight: 600; }
+    .contact i { margin-right: 8px; color: #203a43; }
+
+    /* Footer */
+    footer { background: #222; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+
+    /* Responsive Nav */
+    @media (max-width: 768px) {
+      nav { display: flex; flex-wrap: wrap; justify-content: center; }
+      nav a { margin: 10px; }
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Aditya Kala</h1>
+    <p>Computer Science Student | COER University</p>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p style="text-align: center; max-width: 800px; margin: auto;">
+      I am a Computer Science student at COER University with experience in software development, 
+      machine learning, and data analysis. I enjoy building efficient solutions, analyzing data trends, 
+      and exploring AI-driven applications.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="grid">
+        <div class="card"><i class="fas fa-code"></i> <b>Programming:</b> Python, SQL</div>
+        <div class="card"><i class="fas fa-robot"></i> <b>ML & AI:</b> OpenCV, TensorFlow, Scikit-learn</div>
+        <div class="card"><i class="fas fa-chart-line"></i> <b>Data Analysis:</b> Power BI, MS Excel</div>
+        <div class="card"><i class="fas fa-tools"></i> <b>Tools:</b> VS Code, Git, Jupyter Notebook</div>
+        <div class="card"><i class="fas fa-database"></i> <b>DBMS:</b> MySQL</div>
+        <div class="card"><i class="fas fa-code-branch"></i> <b>Other:</b> REST APIs, Web Scraping, DSA</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+        <div class="card" style="text-align: left;"><b>🔐 Synchronization - Encrypted Chat App:</b><br/> Real-time chat app with AES encryption for secure communication.</div>
+        <div class="card" style="text-align: left;"><b>📊 Amazon Sales Analysis:</b><br/> Interactive Power BI dashboard analyzing sales trends, top products, and demographics.</div>
+        <div class="card" style="text-align: left;"><b>🤟 Sign Language Detection:</b><br/> Real-time gesture recognition model using OpenCV with 90% accuracy.</div>
+    </div>
+</section>
+
+<section id="certifications">
+<h2>Certifications</h2>
+<div class="grid"><div class="card">📜 Python Development – Utech Educations (8 Weeks) <a href="D:\Certificate\python Certificate.pdf" target="_blank">View</a> | <a download="python Certificate.pdf" href="D:\Certificate\python Certificate.pdf">Download</a></div><div class="card">📜 Database Management – Utech Educations (12 Weeks) <a href="D:\Certificate\DBMS Certificate.pdf" target="_blank">View</a> | <a download="D:\Certificate\DBMS Certificate.pdf" href="DBMS Certificate.pdf">Download</a></div></div>
+</section>
+
+<section id="resume">
+    <h2>My Resume</h2>
+    <div class="grid">
+        <div class="card" style="grid-column: 1 / -1;"> <h3>📄 View or Download My Professional Resume</h3>
+            <p style="margin-top: 15px;">
+                <a href="D:\Certificate\Aditya Kala resume.pdf" target="_blank">View</a> | 
+                <a href="D:\Certificate\Aditya Kala resume.pdf" download="Aditya_Kala_Resume.pdf">Download</a>
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <p><i class="fas fa-envelope"></i> Email: <a href="mailto:adityakala187x@gmail.com">adityakala187x@gmail.com</a></p>
+    <p><i class="fas fa-phone"></i> Phone: +91 8868841180</p>
+    <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/aditya-kala-70193b322/" target="_blank">Aditya Kala</a></p>
+</section>
+
+<footer>
+    <p>© 2025 Aditya Kala | Portfolio</p>
+</footer>
+
+</body>
+</html>
